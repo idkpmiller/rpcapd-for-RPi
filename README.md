@@ -16,17 +16,17 @@ The directory I normally place it is in /usr/bin/ as that directory is on the co
 I normally rename the file from rpcapd.arm to simply rpcapd on linux this can be done using the following 
 command assuming you are in the same directory as the downloaded file and want to place in the aformentioned directory:
 
-    *sudo mv rpcapd.arm /usr/bin/rpcapd*
+    sudo mv rpcapd.arm /usr/bin/rpcapd
 
 Next in order to execute the file we need to add the permissions
 
-    *sudo chmod +x /usr/bin/rpcapd*
+    sudo chmod +x /usr/bin/rpcapd
 
 # RUNNING
 To see the help information type *rpcapd -h* at the command line.
 my normal way to run is to use
 
-    *rpcapd -d -n*
+    rpcapd -d -n
 
 The two options i use most ofter are:
 
